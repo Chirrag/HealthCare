@@ -1,0 +1,117 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand mx-3" href="#">CJ Hospital</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse sm-2" id="navbarNav">
+    <ul class="navbar-nav ms-2">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+    
+    </ul>
+  </div>
+</nav>
+
+<div class="jumbotron py-4">
+    <br />
+    <h1 class="display-4 text-center"></h1>
+  </div>
+  <section class="vh-100">
+    <div class="container-fluid h-custom">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-md-9 col-lg-6 col-xl-5">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+            class="img-fluid"
+            alt="Sample image"
+          />
+        </div>
+        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+          <form [formGroup]="PatientLoginForm" (ngSubmit)="OnSubmit()">
+            <h4>Hospital Management System</h4>
+            
+         <!-- <div>
+          <button  class="btn btn-dark btn-sm" [routerLink]="['/patient-login']">Patient Login</button>
+          
+         </div> -->
+          <br>
+            <!-- Username input -->
+            <div class="form-outline mb-4">
+              <input
+                type="text"
+                id="username"
+                class="form-control form-control-lg"
+                placeholder="Enter a valid firstName"
+                formControlName="firstName"
+              />
+              <label class="form-label" for="FirstName">Patient FirstName</label>
+  
+              <div
+                *ngIf="
+                  PatientLoginForm.controls['firstName'].invalid &&
+                  (PatientLoginForm.controls['firstName'].dirty ||
+                  PatientLoginForm.controls['firstName'].touched)
+                "
+                class="alert alert-danger"
+              >
+                <div
+                  *ngIf="
+                  PatientLoginForm.controls['firstName'].errors.required &&
+                    (PatientLoginForm.controls['firstName'].dirty ||
+                    PatientLoginForm.controls['firstName'].touched)
+                  "
+                >
+                  Username is required
+                </div>
+              </div>
+            </div>
+  
+            <!-- Password input -->
+            <div class="form-outline mb-3">
+              <input
+                type="date"
+                id="dob"
+                class="form-control form-control-lg"
+                placeholder="Enter date of birth"
+                formControlName="dateOfBirth"
+              />
+              <label class="form-label" for="datteofBirth">Date Of Birth</label>
+  
+              <div
+                *ngIf="
+                PatientLoginForm.controls['dateOfBirth'].invalid &&
+                  (PatientLoginForm.controls['dateOfBirth'].dirty ||
+                  PatientLoginForm.controls['dateOfBirth'].touched)
+                "
+                class="alert alert-danger"
+              >
+                <div
+                  *ngIf="
+                  PatientLoginForm.controls['dateOfBirth'].errors.required &&
+                    (PatientLoginForm.controls['dateOfBirth'].dirty ||
+                    PatientLoginForm.controls['dateOfBirth'].touched)
+                  "
+                >
+                  dateofBirth is required
+                </div>
+              </div>
+            </div>
+  
+            <div class="text-center text-lg-start mt-4 pt-2">
+              <button
+                type="submit"
+                class="btn btn-primary btn-lg"
+                style="padding-left: 2.5rem; padding-right: 2.5rem;"
+              >
+                Login
+              </button>
+            </div>
+          </form>
+        </div>
+  
+        <!-- patient form  -->
+  
+      </div>
+    </div>
+  </section>

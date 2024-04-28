@@ -1,0 +1,18 @@
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      <li class="page-item" [class.disabled]="page === 1">
+        <a class="page-link" (click)="prevPage()" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      <li class="page-item" *ngFor="let pageItem of pages" [class.active]="page === pageItem">
+        <a class="page-link" (click)="onPageChange(pageItem)">{{ pageItem }}</a>
+      </li>
+      <li class="page-item" [class.disabled]="page === totalPages">
+        <a class="page-link" (click)="nextPage()" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  

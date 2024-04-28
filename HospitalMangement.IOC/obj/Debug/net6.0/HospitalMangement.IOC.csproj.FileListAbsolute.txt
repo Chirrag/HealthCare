@@ -1,0 +1,57 @@
+D:\FinalProject\HospitalMangement\HospitalMangement.IOC\bin\Debug\net6.0\HospitalMangement.IOC.deps.json
+D:\FinalProject\HospitalMangement\HospitalMangement.IOC\bin\Debug\net6.0\HospitalMangement.IOC.dll
+D:\FinalProject\HospitalMangement\HospitalMangement.IOC\bin\Debug\net6.0\HospitalMangement.IOC.pdb
+D:\FinalProject\HospitalMangement\HospitalMangement.IOC\bin\Debug\net6.0\HospitalMangement.Domain.dll
+D:\FinalProject\HospitalMangement\HospitalMangement.IOC\bin\Debug\net6.0\HospitalMangment.Infrastructure.dll
+D:\FinalProject\HospitalMangement\HospitalMangement.IOC\bin\Debug\net6.0\HospitalMangment.Infrastructure.pdb
+D:\FinalProject\HospitalMangement\HospitalMangement.IOC\bin\Debug\net6.0\HospitalMangement.Domain.pdb
+D:\FinalProject\HospitalMangement\HospitalMangement.IOC\obj\Debug\net6.0\HospitalMangement.IOC.csproj.AssemblyReference.cache
+D:\FinalProject\HospitalMangement\HospitalMangement.IOC\obj\Debug\net6.0\HospitalMangement.IOC.GeneratedMSBuildEditorConfig.editorconfig
+D:\FinalProject\HospitalMangement\HospitalMangement.IOC\obj\Debug\net6.0\HospitalMangement.IOC.AssemblyInfoInputs.cache
+D:\FinalProject\HospitalMangement\HospitalMangement.IOC\obj\Debug\net6.0\HospitalMangement.IOC.AssemblyInfo.cs
+D:\FinalProject\HospitalMangement\HospitalMangement.IOC\obj\Debug\net6.0\HospitalMangement.IOC.csproj.CoreCompileInputs.cache
+D:\FinalProject\HospitalMangement\HospitalMangement.IOC\obj\Debug\net6.0\HospitalMangement.IOC.csproj.CopyComplete
+D:\FinalProject\HospitalMangement\HospitalMangement.IOC\obj\Debug\net6.0\HospitalMangement.IOC.dll
+D:\FinalProject\HospitalMangement\HospitalMangement.IOC\obj\Debug\net6.0\refint\HospitalMangement.IOC.dll
+D:\FinalProject\HospitalMangement\HospitalMangement.IOC\obj\Debug\net6.0\HospitalMangement.IOC.pdb
+D:\FinalProject\HospitalMangement\HospitalMangement.IOC\obj\Debug\net6.0\ref\HospitalMangement.IOC.dll
+D:\FinalProject\HospitalMangement\HospitalMangement.IOC\bin\Debug\net6.0\HospitalManagement.Core.dll
+D:\FinalProject\HospitalMangement\HospitalMangement.IOC\bin\Debug\net6.0\HospitalManagement.Core.pdb
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.IOC\bin\Debug\net6.0\HospitalMangement.IOC.deps.json
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.IOC\bin\Debug\net6.0\HospitalMangement.IOC.dll
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.IOC\bin\Debug\net6.0\HospitalMangement.IOC.pdb
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.IOC\bin\Debug\net6.0\HospitalManagement.Core.dll
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.IOC\bin\Debug\net6.0\HospitalMangement.Domain.dll
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.IOC\bin\Debug\net6.0\HospitalMangment.Infrastructure.dll
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.IOC\bin\Debug\net6.0\HospitalManagement.Core.pdb
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.IOC\bin\Debug\net6.0\HospitalMangment.Infrastructure.pdb
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.IOC\bin\Debug\net6.0\HospitalMangement.Domain.pdb
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.IOC\obj\Debug\net6.0\HospitalMangement.IOC.csproj.AssemblyReference.cache
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.IOC\obj\Debug\net6.0\HospitalMangement.IOC.GeneratedMSBuildEditorConfig.editorconfig
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.IOC\obj\Debug\net6.0\HospitalMangement.IOC.AssemblyInfoInputs.cache
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.IOC\obj\Debug\net6.0\HospitalMangement.IOC.AssemblyInfo.cs
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.IOC\obj\Debug\net6.0\HospitalMangement.IOC.csproj.CoreCompileInputs.cache
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.IOC\obj\Debug\net6.0\HospitalMangement.IOC.csproj.CopyComplete
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.IOC\obj\Debug\net6.0\HospitalMangement.IOC.dll
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.IOC\obj\Debug\net6.0\refint\HospitalMangement.IOC.dll
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.IOC\obj\Debug\net6.0\HospitalMangement.IOC.pdb
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.IOC\obj\Debug\net6.0\ref\HospitalMangement.IOC.dll
+D:\HalthCare\HospitalMangement.IOC\bin\Debug\net6.0\HospitalMangement.IOC.deps.json
+D:\HalthCare\HospitalMangement.IOC\bin\Debug\net6.0\HospitalMangement.IOC.dll
+D:\HalthCare\HospitalMangement.IOC\bin\Debug\net6.0\HospitalMangement.IOC.pdb
+D:\HalthCare\HospitalMangement.IOC\bin\Debug\net6.0\HospitalManagement.Core.dll
+D:\HalthCare\HospitalMangement.IOC\bin\Debug\net6.0\HospitalMangement.Domain.dll
+D:\HalthCare\HospitalMangement.IOC\bin\Debug\net6.0\HospitalMangment.Infrastructure.dll
+D:\HalthCare\HospitalMangement.IOC\bin\Debug\net6.0\HospitalManagement.Core.pdb
+D:\HalthCare\HospitalMangement.IOC\bin\Debug\net6.0\HospitalMangment.Infrastructure.pdb
+D:\HalthCare\HospitalMangement.IOC\bin\Debug\net6.0\HospitalMangement.Domain.pdb
+D:\HalthCare\HospitalMangement.IOC\obj\Debug\net6.0\HospitalMangement.IOC.csproj.AssemblyReference.cache
+D:\HalthCare\HospitalMangement.IOC\obj\Debug\net6.0\HospitalMangement.IOC.GeneratedMSBuildEditorConfig.editorconfig
+D:\HalthCare\HospitalMangement.IOC\obj\Debug\net6.0\HospitalMangement.IOC.AssemblyInfoInputs.cache
+D:\HalthCare\HospitalMangement.IOC\obj\Debug\net6.0\HospitalMangement.IOC.AssemblyInfo.cs
+D:\HalthCare\HospitalMangement.IOC\obj\Debug\net6.0\HospitalMangement.IOC.csproj.CoreCompileInputs.cache
+D:\HalthCare\HospitalMangement.IOC\obj\Debug\net6.0\HospitalMangement.IOC.csproj.CopyComplete
+D:\HalthCare\HospitalMangement.IOC\obj\Debug\net6.0\HospitalMangement.IOC.dll
+D:\HalthCare\HospitalMangement.IOC\obj\Debug\net6.0\refint\HospitalMangement.IOC.dll
+D:\HalthCare\HospitalMangement.IOC\obj\Debug\net6.0\HospitalMangement.IOC.pdb
+D:\HalthCare\HospitalMangement.IOC\obj\Debug\net6.0\ref\HospitalMangement.IOC.dll

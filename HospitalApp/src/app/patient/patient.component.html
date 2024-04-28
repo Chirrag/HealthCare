@@ -1,0 +1,174 @@
+<!-- <div class="container">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand ms-4" href="#">CJ Hospital</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse  " id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#"  routerLink="/home-page" >Home</a>
+      </li>
+       
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/patient" >Patients</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/view-appointments" >All Appointments</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/prescrption-details" >Completed Appointments</a>
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link"  href="#" (click)="OnLogoutClick()">Logout</a>
+        </li>
+    </ul>
+  </div>
+</nav>
+</div>
+
+<div class="container">
+<div class="jumbotron py-2">
+  <br>
+  <h1 class="display-4 text-center">Patient  View Table</h1>
+</div>
+<br>
+
+<div class="py-2">
+  <button  id="buttonEdit" type="button" class="fw-normal mb-1 bg-white " [routerLink]="['/patient-form']">Add Patient</button> &nbsp;
+  <div class="row justify-content-end">
+    <div class="col-md-4">
+      
+      <input class="form-control" type="search" name="search" [(ngModel)]="searchText" autocomplete="off" placeholder="Search patient">
+    </div>
+  </div>
+
+  <div class="table-responsive">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Sno</th>
+          <th>Name</th>
+          <th>Phone Number</th>
+          <th>Date of Birth</th>
+          <th>Age</th>
+          <th>Gender</th>
+          <th>Status</th>
+          <th>Address</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody> -->
+        <!-- paginate :{itemsPerPage: 5, currentPage: p, totalItems: totalItems}  -->
+        <!-- <tr *ngFor="let pd of filteredPatientList | filter:searchText | paginate :{itemsPerPage: 5, currentPage: p, totalItems: totalItems} ;let Sno = index ;" >
+          <td>{{ Sno + 1 }}</td>
+          <td>
+            <p class="fw-bold mb-1">{{ pd.firstName }} {{ pd.lastName }}</p>
+          </td>
+          <td>{{ pd.phoneNumber }}</td>
+          <td>{{ pd.dateOfBirth.slice(0,10) }}</td>
+          <td>{{ pd.age }}</td>
+          <td>{{ pd.gender }}</td>
+          <td>
+            <span class="badge rounded-pill {{ pd.isActive ? 'bg-danger' : 'bg-warning' }}">{{ pd.isActive ? 'Inactive' : 'Active' }}</span>
+          </td>
+          <td>{{ pd.address }}</td>
+          <td>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a class="btn btn-primary me-md-2 mb-2 mb-md-0" href="/editpatient/{{ pd.patientId }}" role="button">Edit</a>
+              <a *ngIf="!pd.isActive" class="btn btn-primary me-md-2 mb-2 mb-md-0" href="/appoinment-form/{{ pd.patientId }}" role="button">Add</a>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="myPage">
+      <pagination-controls (pageChange)="p = $event"></pagination-controls>
+    </div>
+    
+  </div>
+  
+</div> -->
+
+<!-- new Code after custome pagination  -->
+<div class="container">
+  <!-- ... Your navigation menu ... -->
+</div>
+
+<div class="container">
+  <div class="jumbotron py-2">
+    <br>
+    <h1 class="display-4 text-center">Patient View Table</h1>
+  </div>
+  <br>
+
+  <div class="py-2">
+    <button id="buttonEdit" type="button" class="fw-normal mb-1 bg-white " [routerLink]="['/patient-form']">Add Patient</button> &nbsp;
+    <div class="row justify-content-end">
+      <div class="col-md-4">
+        <input class="form-control" type="search" name="search" [(ngModel)]="searchText" autocomplete="off" placeholder="Search patient">
+      </div>
+    </div>
+
+    <!-- ... Your table header ... -->
+
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Sno</th>
+          <th>Name</th>
+          <th>Phone Number</th>
+          <th>Date of Birth</th>
+          <th>Age</th>
+          <th>Gender</th>
+          <th>Status</th>
+          <th>Address</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let pd of filteredPatientList | filter:searchText ,let Sno = index ;" >
+          <td>{{ Sno + 1 }}</td>
+          <td>
+            <p class="fw-bold mb-1">{{ pd.firstName }} {{ pd.lastName }}</p>
+          </td>
+          <td>{{ pd.phoneNumber }}</td>
+          <td>{{ pd.dateOfBirth.slice(0,10) }}</td>
+          <td>{{ pd.age }}</td>
+          <td>{{ pd.gender }}</td>
+          <td>
+            <span class="badge rounded-pill {{ pd.isActive ? 'bg-danger' : 'bg-warning' }}">{{ pd.isActive ? 'Inactive' : 'Active' }}</span>
+          </td>
+          <td>{{ pd.address }}</td>
+          <td>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a class="btn btn-primary me-md-2 mb-2 mb-md-0" [routerLink]="['/editpatient', pd.patientId]" role="button">Edit</a>
+              <a *ngIf="!pd.isActive" class="btn btn-primary me-md-2 mb-2 mb-md-0" [routerLink]="['/appoinment-form', pd.patientId]" role="button">Add</a>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <!-- Custom Pagination Controls -->
+    <!-- <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item" [class.disabled]="p === 1">
+          <a class="page-link" (click)="OnPageChange(p - 1)" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item" *ngFor="let pageItem of pages" [class.active]="p === pageItem">
+          <a class="page-link" (click)="OnPageChange(pageItem)">{{ pageItem }}</a>
+        </li>
+        <li class="page-item" [class.disabled]="p === pages.length">
+          <a class="page-link" (click)="OnPageChange(p + 1)" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav> -->
+    <!-- <app-pagination [page]="page" (pageChange)="OnPageChange($event)"></app-pagination> -->
+    
+  </div>
+</div>

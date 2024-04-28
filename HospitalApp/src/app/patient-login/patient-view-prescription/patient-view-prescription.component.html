@@ -1,0 +1,79 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand ms-4" href="#">CJ Hospital</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse  " id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+       
+       
+    
+    <li class="nav-item ">
+      <a class="nav-link" href="#">Hello <strong>{{patientName}}</strong> </a>
+    </li>
+    <li class="nav-item" id="logout">
+      <a class="nav-link" href="#" routerLink="/patient-login">Logout</a>
+     </li>
+</ul>
+    </div>
+  </nav>
+
+
+
+
+<div class="container">
+    <div class="jumbotron py-2">
+        <br>
+        <h1 class="display-6 text-center">Patient  View Table</h1>
+      </div>
+      <br>
+      <br>
+<table class="table align-middle mb-0 bg-white">
+    <thead class="bg-light">
+      <tr>
+        <th>Sno</th>
+       <th>Appointment ID</th>
+       <th>Patient Name</th>
+       <th>Patient Disease</th>
+       <th>Prescrption Detail</th>
+      </tr>
+    </thead>
+    <tbody>
+     
+      <tr *ngFor="let pd of prescrption; let Sno=index">
+        <td>
+          <p class="fw-bold mb-1">{{Sno+1}}</p>
+        </td>
+        <td>
+            <p class="fw-bold mb-1">{{pd.appointmentId}}</p>
+          
+        </td>
+        <td>
+            <div class="d-flex align-items-center">
+            
+                <div class="ms-3">
+                 
+                  <p class="text-muted mb-0">{{pd.patientFirstName}}&nbsp;{{pd.patientLastName}}</p>
+                </div>
+              </div>
+        </td>
+        <td>
+            <p class="fw-normal mb-1">{{pd.patientDisease}}</p>
+        </td>
+       <td>
+        <p class="fw-normal mb-1">{{pd.prescrptionDetails}}</p>
+       </td>
+       
+        <!-- <td>
+          <button  id="buttonEdit" class="fw-normal mb-1 bg-white "[routerLink]="['/editpatient', pd.patientId]">Edit</button>&nbsp;
+          
+        </td> -->
+      </tr>
+     
+        
+    </tbody>
+  </table>
+</div>

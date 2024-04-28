@@ -1,0 +1,64 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand ms-4" href="#">CJ Hospital</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse mx-4" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link"  routerLink="/home-page" >Home</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#"  routerLink="/appointments" >Appointments</a>
+        </li>
+          <li class="nav-item" id="logout">
+            <a class="nav-link" href="#" (click)="OnLogoutClick()">Logout</a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+<div class="container mt-4">
+    <div class="row ">
+        <div class="col-sm-6">
+            <ol class="list-group">
+                <li class="list-group-item"  >
+                    <p><Strong>Appointment Id: &nbsp;</Strong>{{appointment.patientAppointmentId}}</p>
+                
+                
+                    <p><Strong>Patient Name: &nbsp;</Strong>{{appointment.patientFirstName}}&nbsp;{{appointment.patientLastName}}</p>
+                
+                
+                    <p><Strong>Patient Disease: &nbsp;</Strong>{{appointment.patientDiseases}}</p>
+                </li>
+            </ol>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+              <div class="card-header">
+                <h4>Add Prescription</h4>
+              </div>
+              <div class="card-body">
+                <form form  [formGroup]="prescriptionFormPost" (ngSubmit)="OnSubmit()">
+                
+                  <div class="form-group">
+                    <label for="prescription-details">Prescription Details:</label>
+                    <textarea class="form-control" id="prescription-details" formControlName="prescriptionDetails"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <label for="status">Status:</label>
+                    <select class="form-select mt-2" required formControlName="status">
+                      <option selected disabled value="">Status</option>
+                      <option *ngFor="let status of status" >{{status.status}}</option>
+               </select>
+                  </div>
+                  <div class="form-group py-3">
+                    <button type="submit" class="btn btn-primary" >Save Prescription</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+    </div>
+    
+</div>
+

@@ -1,0 +1,51 @@
+D:\FinalProject\HospitalMangement\HospitalMangment.Infrastructure\bin\Debug\net6.0\HospitalMangment.Infrastructure.deps.json
+D:\FinalProject\HospitalMangement\HospitalMangment.Infrastructure\bin\Debug\net6.0\HospitalMangment.Infrastructure.runtimeconfig.json
+D:\FinalProject\HospitalMangement\HospitalMangment.Infrastructure\bin\Debug\net6.0\HospitalMangment.Infrastructure.dll
+D:\FinalProject\HospitalMangement\HospitalMangment.Infrastructure\bin\Debug\net6.0\HospitalMangment.Infrastructure.pdb
+D:\FinalProject\HospitalMangement\HospitalMangment.Infrastructure\bin\Debug\net6.0\HospitalMangement.Domain.dll
+D:\FinalProject\HospitalMangement\HospitalMangment.Infrastructure\bin\Debug\net6.0\HospitalMangement.Domain.pdb
+D:\FinalProject\HospitalMangement\HospitalMangment.Infrastructure\obj\Debug\net6.0\HospitalMangment.Infrastructure.csproj.AssemblyReference.cache
+D:\FinalProject\HospitalMangement\HospitalMangment.Infrastructure\obj\Debug\net6.0\HospitalMangment.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\FinalProject\HospitalMangement\HospitalMangment.Infrastructure\obj\Debug\net6.0\HospitalMangment.Infrastructure.AssemblyInfoInputs.cache
+D:\FinalProject\HospitalMangement\HospitalMangment.Infrastructure\obj\Debug\net6.0\HospitalMangment.Infrastructure.AssemblyInfo.cs
+D:\FinalProject\HospitalMangement\HospitalMangment.Infrastructure\obj\Debug\net6.0\HospitalMangment.Infrastructure.csproj.CoreCompileInputs.cache
+D:\FinalProject\HospitalMangement\HospitalMangment.Infrastructure\obj\Debug\net6.0\HospitalMangment.Infrastructure.csproj.CopyComplete
+D:\FinalProject\HospitalMangement\HospitalMangment.Infrastructure\obj\Debug\net6.0\HospitalMangment.Infrastructure.dll
+D:\FinalProject\HospitalMangement\HospitalMangment.Infrastructure\obj\Debug\net6.0\refint\HospitalMangment.Infrastructure.dll
+D:\FinalProject\HospitalMangement\HospitalMangment.Infrastructure\obj\Debug\net6.0\HospitalMangment.Infrastructure.pdb
+D:\FinalProject\HospitalMangement\HospitalMangment.Infrastructure\obj\Debug\net6.0\HospitalMangment.Infrastructure.genruntimeconfig.cache
+D:\FinalProject\HospitalMangement\HospitalMangment.Infrastructure\obj\Debug\net6.0\ref\HospitalMangment.Infrastructure.dll
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangment.Infrastructure\bin\Debug\net6.0\HospitalMangment.Infrastructure.deps.json
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangment.Infrastructure\bin\Debug\net6.0\HospitalMangment.Infrastructure.runtimeconfig.json
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangment.Infrastructure\bin\Debug\net6.0\HospitalMangment.Infrastructure.dll
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangment.Infrastructure\bin\Debug\net6.0\HospitalMangment.Infrastructure.pdb
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangment.Infrastructure\bin\Debug\net6.0\HospitalMangement.Domain.dll
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangment.Infrastructure\bin\Debug\net6.0\HospitalMangement.Domain.pdb
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangment.Infrastructure\obj\Debug\net6.0\HospitalMangment.Infrastructure.csproj.AssemblyReference.cache
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangment.Infrastructure\obj\Debug\net6.0\HospitalMangment.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangment.Infrastructure\obj\Debug\net6.0\HospitalMangment.Infrastructure.AssemblyInfoInputs.cache
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangment.Infrastructure\obj\Debug\net6.0\HospitalMangment.Infrastructure.AssemblyInfo.cs
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangment.Infrastructure\obj\Debug\net6.0\HospitalMangment.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangment.Infrastructure\obj\Debug\net6.0\HospitalMangment.Infrastructure.csproj.CopyComplete
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangment.Infrastructure\obj\Debug\net6.0\HospitalMangment.Infrastructure.dll
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangment.Infrastructure\obj\Debug\net6.0\refint\HospitalMangment.Infrastructure.dll
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangment.Infrastructure\obj\Debug\net6.0\HospitalMangment.Infrastructure.pdb
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangment.Infrastructure\obj\Debug\net6.0\HospitalMangment.Infrastructure.genruntimeconfig.cache
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangment.Infrastructure\obj\Debug\net6.0\ref\HospitalMangment.Infrastructure.dll
+D:\HalthCare\HospitalMangment.Infrastructure\bin\Debug\net6.0\HospitalMangment.Infrastructure.deps.json
+D:\HalthCare\HospitalMangment.Infrastructure\bin\Debug\net6.0\HospitalMangment.Infrastructure.runtimeconfig.json
+D:\HalthCare\HospitalMangment.Infrastructure\bin\Debug\net6.0\HospitalMangment.Infrastructure.dll
+D:\HalthCare\HospitalMangment.Infrastructure\bin\Debug\net6.0\HospitalMangment.Infrastructure.pdb
+D:\HalthCare\HospitalMangment.Infrastructure\bin\Debug\net6.0\HospitalMangement.Domain.dll
+D:\HalthCare\HospitalMangment.Infrastructure\bin\Debug\net6.0\HospitalMangement.Domain.pdb
+D:\HalthCare\HospitalMangment.Infrastructure\obj\Debug\net6.0\HospitalMangment.Infrastructure.csproj.AssemblyReference.cache
+D:\HalthCare\HospitalMangment.Infrastructure\obj\Debug\net6.0\HospitalMangment.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\HalthCare\HospitalMangment.Infrastructure\obj\Debug\net6.0\HospitalMangment.Infrastructure.AssemblyInfoInputs.cache
+D:\HalthCare\HospitalMangment.Infrastructure\obj\Debug\net6.0\HospitalMangment.Infrastructure.AssemblyInfo.cs
+D:\HalthCare\HospitalMangment.Infrastructure\obj\Debug\net6.0\HospitalMangment.Infrastructure.csproj.CoreCompileInputs.cache
+D:\HalthCare\HospitalMangment.Infrastructure\obj\Debug\net6.0\HospitalMangment.Infrastructure.csproj.CopyComplete
+D:\HalthCare\HospitalMangment.Infrastructure\obj\Debug\net6.0\HospitalMangment.Infrastructure.dll
+D:\HalthCare\HospitalMangment.Infrastructure\obj\Debug\net6.0\refint\HospitalMangment.Infrastructure.dll
+D:\HalthCare\HospitalMangment.Infrastructure\obj\Debug\net6.0\HospitalMangment.Infrastructure.pdb
+D:\HalthCare\HospitalMangment.Infrastructure\obj\Debug\net6.0\HospitalMangment.Infrastructure.genruntimeconfig.cache
+D:\HalthCare\HospitalMangment.Infrastructure\obj\Debug\net6.0\ref\HospitalMangment.Infrastructure.dll

@@ -1,0 +1,139 @@
+<div class="container">
+<nav class="navbar navbar-inverse navbar-fixed-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand mx-4" href="#">CJ Hospital</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ">
+        <li class="nav-item active">
+          <a class="nav-link" href="#"  routerLink="/home-page">Home</a>
+        </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/patient" >Patients</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/view-appointments" >All Appointments</a>
+          </li>
+          <li class="nav-item" >
+            <a class="nav-link" href="#" (click)="OnLogoutClick()">Logout</a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+  <div class="container" >
+     
+      <div class="jumbotron py-2">
+        <br>
+        <h1 class="display-4 text-center">Appointment Form</h1>
+      </div>
+      <br>
+  <div class="container" >
+  <div class="form-body">
+      <div class="row">
+          <div class="form-holder">
+              <div class="form-content">
+                  <div class="form-items">
+                      <form class="requires-validation" [formGroup]="appointmentFormPost" (ngSubmit)="OnSubmit()">
+  
+                        <div class="col-md-12 py-2">
+                          <input class="form-control" type="text" placeholder="Enter Patient First Name" formControlName="patientFirstName">
+                          <div *ngIf="appointmentFormPost.get('patientFirstName').invalid && (appointmentFormPost.get('patientFirstName').dirty || appointmentFormPost.get('patientFirstName').touched)"
+                            class="alert alert-danger">
+                            <div *ngIf="appointmentFormPost.get('patientFirstName').errors.required">
+                              First Name is required.
+                            </div>
+                          </div>
+                        </div>
+                          
+  
+                        <div class="col-md-12 py-2">
+                          <input class="form-control" type="text" placeholder="Enter Patient Last Name" formControlName="patientLastName">
+                          <div *ngIf="appointmentFormPost.get('patientLastName').invalid && (appointmentFormPost.get('patientLastName').dirty || appointmentFormPost.get('patientLastName').touched)"
+                            class="alert alert-danger">
+                            <div *ngIf="appointmentFormPost.get('patientLastName').errors.required">
+                              Last Name is required.
+                            </div>
+                          </div>
+                        </div>
+  
+                        <div class="col-md-12 py-2">
+                          <select class="form-select mt-2" formControlName="receptionistName">
+                            <option value="" selected disabled>Receptionist</option>
+                            <option *ngFor="let recep of Receptionist">{{ recep.receptionistName }}</option>
+                          </select>
+                          <div *ngIf="appointmentFormPost.get('receptionistName').invalid && (appointmentFormPost.get('receptionistName').dirty || appointmentFormPost.get('receptionistName').touched)"
+                            class="alert alert-danger">
+                            <div *ngIf="appointmentFormPost.get('receptionistName').errors.required">
+                              Receptionist is required.
+                            </div>
+                          </div>
+                        </div>
+                               
+
+                           <div class="col-md-12 py-2">
+                            <input class="form-control" type="text" name="name" placeholder="Enter Disease" formControlName="diseases" required>
+                            <div *ngIf="appointmentFormPost.get('diseases').invalid && (appointmentFormPost.get('diseases').dirty || appointmentFormPost.get('diseases').touched)"
+                            class="alert alert-danger">
+                            <div *ngIf="appointmentFormPost.get('diseases').errors.required">
+                              Disease is required !  
+                            </div>
+                         </div>
+                           </div>
+                          
+                          <div class="col-md-12 ">
+                              <select class="form-select mt-2" required formControlName="doctorName">
+                                    <option selected disabled value="">Doctor</option>
+                                    <option *ngFor="let doctor of Doctors" >{{doctor.doctorName}}</option>
+                             </select>
+                             <div *ngIf="appointmentFormPost.get('doctorName').invalid && (appointmentFormPost.get('doctorName').dirty || appointmentFormPost.get('doctorName').touched)"
+                             class="alert alert-danger">
+                             <div *ngIf="appointmentFormPost.get('doctorName').errors.required">
+                               Doctor is required.
+                             </div>
+                             
+                         </div>
+                          </div>
+   
+                         <div class="col-md-12 py-2">
+                          <select class="form-select mt-2" required formControlName="status">
+                            <option selected disabled value="">Status</option>
+                            <option *ngFor="let status of status" >{{status.status}}</option>
+                     </select>
+                     <div *ngIf="appointmentFormPost.get('status').invalid && (appointmentFormPost.get('status').dirty || appointmentFormPost.get('status').touched)"
+                     class="alert alert-danger">
+                     <div *ngIf="appointmentFormPost.get('status').errors.required">
+                       status is required.
+                     </div>
+                       </div>
+                         </div>
+  
+                       <div class="col-md-12 py-2">
+                          <input class="form-control" type="text" name="name" placeholder="Enter Fees" formControlName="fees" required>
+                          <div *ngIf="appointmentFormPost.get('fees').invalid && (appointmentFormPost.get('fees').dirty || appointmentFormPost.get('fees').touched)"
+                     class="alert alert-danger">
+                     <div *ngIf="appointmentFormPost.get('fees').errors.required">
+                       Fees is required.
+                     </div>
+                       </div>
+                       </div>
+  
+  
+                       
+                       
+  
+                          <div class="form-button mt-3">
+                              <button id="submit" type="submit" class="btn btn-primary"  [disabled]="!appointmentFormPost.valid">Make Appointment</button>
+                              &nbsp; <button type="button" class="btn btn-dark " [routerLink]="['/patient']">Back</button>
+                            </div>
+                            <br>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  </div> 
+  

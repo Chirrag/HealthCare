@@ -1,0 +1,54 @@
+#buttonEdit{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+      margin-left: 0;
+    }
+    
+    .navbar-nav {
+      margin-top: 0.5rem;
+    }
+    
+    .nav-item {
+      display: block;
+    }
+    
+    .nav-link {
+      padding: 0.5rem;
+    }
+    
+    .collapse.show {
+      display: block;
+      position: static;
+      height: auto;
+      overflow: visible;
+    }
+    
+    .collapse.hide {
+      display: none;
+    }
+    
+    .navbar-toggler {
+      display: block;
+    }
+    
+    #logout {
+      margin-top: 0.5rem;
+    }
+    
+    #buttonEdit {
+      margin-top: 0.5rem;
+    }
+    
+    table {
+      max-width: 100%;
+      font-size: 0.9rem;
+    }
+  }
+  #allott{
+    border: none;
+}
+.myPage{
+  float: right;
+}

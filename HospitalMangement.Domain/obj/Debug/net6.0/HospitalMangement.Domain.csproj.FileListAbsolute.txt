@@ -1,0 +1,36 @@
+D:\FinalProject\HospitalMangement\HospitalMangement.Domain\bin\Debug\net6.0\HospitalMangement.Domain.deps.json
+D:\FinalProject\HospitalMangement\HospitalMangement.Domain\bin\Debug\net6.0\HospitalMangement.Domain.dll
+D:\FinalProject\HospitalMangement\HospitalMangement.Domain\bin\Debug\net6.0\HospitalMangement.Domain.pdb
+D:\FinalProject\HospitalMangement\HospitalMangement.Domain\obj\Debug\net6.0\HospitalMangement.Domain.csproj.AssemblyReference.cache
+D:\FinalProject\HospitalMangement\HospitalMangement.Domain\obj\Debug\net6.0\HospitalMangement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\FinalProject\HospitalMangement\HospitalMangement.Domain\obj\Debug\net6.0\HospitalMangement.Domain.AssemblyInfoInputs.cache
+D:\FinalProject\HospitalMangement\HospitalMangement.Domain\obj\Debug\net6.0\HospitalMangement.Domain.AssemblyInfo.cs
+D:\FinalProject\HospitalMangement\HospitalMangement.Domain\obj\Debug\net6.0\HospitalMangement.Domain.csproj.CoreCompileInputs.cache
+D:\FinalProject\HospitalMangement\HospitalMangement.Domain\obj\Debug\net6.0\HospitalMangement.Domain.dll
+D:\FinalProject\HospitalMangement\HospitalMangement.Domain\obj\Debug\net6.0\refint\HospitalMangement.Domain.dll
+D:\FinalProject\HospitalMangement\HospitalMangement.Domain\obj\Debug\net6.0\HospitalMangement.Domain.pdb
+D:\FinalProject\HospitalMangement\HospitalMangement.Domain\obj\Debug\net6.0\ref\HospitalMangement.Domain.dll
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.Domain\bin\Debug\net6.0\HospitalMangement.Domain.deps.json
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.Domain\bin\Debug\net6.0\HospitalMangement.Domain.dll
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.Domain\bin\Debug\net6.0\HospitalMangement.Domain.pdb
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.Domain\obj\Debug\net6.0\HospitalMangement.Domain.csproj.AssemblyReference.cache
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.Domain\obj\Debug\net6.0\HospitalMangement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.Domain\obj\Debug\net6.0\HospitalMangement.Domain.AssemblyInfoInputs.cache
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.Domain\obj\Debug\net6.0\HospitalMangement.Domain.AssemblyInfo.cs
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.Domain\obj\Debug\net6.0\HospitalMangement.Domain.csproj.CoreCompileInputs.cache
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.Domain\obj\Debug\net6.0\HospitalMangement.Domain.dll
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.Domain\obj\Debug\net6.0\refint\HospitalMangement.Domain.dll
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.Domain\obj\Debug\net6.0\HospitalMangement.Domain.pdb
+D:\Asp.net Core Projects\HospitalMangement\HospitalMangement.Domain\obj\Debug\net6.0\ref\HospitalMangement.Domain.dll
+D:\HalthCare\HospitalMangement.Domain\bin\Debug\net6.0\HospitalMangement.Domain.deps.json
+D:\HalthCare\HospitalMangement.Domain\bin\Debug\net6.0\HospitalMangement.Domain.dll
+D:\HalthCare\HospitalMangement.Domain\bin\Debug\net6.0\HospitalMangement.Domain.pdb
+D:\HalthCare\HospitalMangement.Domain\obj\Debug\net6.0\HospitalMangement.Domain.csproj.AssemblyReference.cache
+D:\HalthCare\HospitalMangement.Domain\obj\Debug\net6.0\HospitalMangement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\HalthCare\HospitalMangement.Domain\obj\Debug\net6.0\HospitalMangement.Domain.AssemblyInfoInputs.cache
+D:\HalthCare\HospitalMangement.Domain\obj\Debug\net6.0\HospitalMangement.Domain.AssemblyInfo.cs
+D:\HalthCare\HospitalMangement.Domain\obj\Debug\net6.0\HospitalMangement.Domain.csproj.CoreCompileInputs.cache
+D:\HalthCare\HospitalMangement.Domain\obj\Debug\net6.0\HospitalMangement.Domain.dll
+D:\HalthCare\HospitalMangement.Domain\obj\Debug\net6.0\refint\HospitalMangement.Domain.dll
+D:\HalthCare\HospitalMangement.Domain\obj\Debug\net6.0\HospitalMangement.Domain.pdb
+D:\HalthCare\HospitalMangement.Domain\obj\Debug\net6.0\ref\HospitalMangement.Domain.dll
